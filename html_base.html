@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scegli il Tuo Videogioco</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .game-option {
+            display: inline-block;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        .game-option img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Scegli il Tuo Videogioco</h1>
+
+    <div class="game-option" onclick="window.location.href='schiaccia_talpa/html.html'">
+        <img src="talpaa.png" alt="Schiaccia la Talpa">
+        <p>Schiaccia la Talpa</p>
+    </div>
+    
+    <div class="game-option" onclick="window.location.href='indovina_numero/indovina_numero.html'">
+        <img src="punto_interrogativo.jpg" alt="Indovina il Numero">
+        <p>Indovina il Numero</p>
+    </div>
+    
+    <div class="game-option" onclick="window.location.href='uccellino/index.html'">
+        <img src="bird.jpg" alt="Uccellino">
+        <p>Uccellino</p>
+    </div>
+    
+    <div class="game-option" onclick="window.location.href='conta_oggetti/index.html'">
+        <img src="conta.jpg" alt="Conta gli Oggetti">
+        <p>Conta gli Oggetti</p>
+    </div>
+    
+
+    
+    <footer>
+        <p>Emanuele Gazzotti</p>
+    </footer>
+</body>
+</html>
